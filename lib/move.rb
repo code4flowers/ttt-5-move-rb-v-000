@@ -10,7 +10,7 @@ end
 
 def input_to_index (user_input)
   new_user_input = user_input.to_i #takes the users input and converts it into an integer
-  new_user_input -=1 #the board has nine spots available but the array will start us at zero.
+  new_user_input -=1 #the board          has nine spots available but the array will start us at zero.
   return new_user_input #How do we store the users input ?
 end
 
